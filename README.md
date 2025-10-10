@@ -2,7 +2,7 @@ To do list:
 
 Q3: 
 
-- Understand the plot in Q3.2,
+- Understand the plot in Q3.2 -> DONE -> explained what a ROC curve is and what a RBF SVM is
 - Do Q3.3 by messing around with C in SVM 
 - Do Q3.4 by messing around with γ-values in SVM 
 
