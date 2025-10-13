@@ -1,10 +1,8 @@
 To do list:
 
-Q3: 
+Q2: 
+- Get a better understanding of max depth parameters and min samples leaf values
 
-- Understand the plot in Q3.2 -> DONE -> explained what a ROC curve is and what a RBF SVM is
-- Do Q3.3 by messing around with C in SVM 
-- Do Q3.4 by messing around with γ-values in SVM 
 
 Q4: Whole thing is just a comparison between SVM and Decision Tree model behaviors
 
