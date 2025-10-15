@@ -1,13 +1,28 @@
-To do list:
+# IDATG2208 Machine Learning Assignment 2
 
-Q2: 
-- Get a better understanding of max depth parameters and min samples leaf values
+Machine learning exercises using the Breast Cancer Winconsin dataset. This time focus on Decision Trees and Support Vector Machines (SVMs)
+
+The dataset is available directly in scikit-learn (https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html) and also on Kaggle (https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data). 
 
 
-Q4: Whole thing is just a comparison between SVM and Decision Tree model behaviors
+- **Exercise 1**: Data preparation, analysis & Standarization 
 
-- Q4.1: Compare results from the training and validation sets from the two models 
-- Q4.2: Trade offs between usability and accuracy  (Look at Fβ score metrics)
-- Q4.3: GridSearchCV for hypertuning parameters for both Decicion trees and SVMs
-- Q4.4: Compare accuracy between DT and SVMs
-- Q4.5: Yap-session 
+
+- **Exercise 2**: Decision Trees with variyng max_depth parameters and different min_samples_leaf values
+
+
+- **Exercise 3**: Support Vector Machines with both a linear kernal and also a Radial Basis Function (RBF) kernel.
+
+
+- **Exercise 4**: Model comparison inbetween the SVM and DT models, GridSearchSV for hyperparameter tuning
+
+## Requirements
+- Python 3.8+
+- Required packages:
+pandas, numpy, scikit-learn, matplotlib, scipy (used for interpolation in ROC curves)
+
+You can install all dependencies using pip:
+`pip install pandas numpy scikit-learn matplotlib scipy`
+
+For detailed assignment requirements, see: [Assignment Description](idatg2208-assignmnet-2.pdf)
+
